@@ -1,0 +1,72 @@
+.home-container {
+    position: relative;
+    height: 92vh;
+    /* background-color: #edebdf; */
+}
+
+#home-logo {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 210px;
+    z-index: 2;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 4px double black;
+    width: 30%;
+    height: 32%;
+    font-size: 17px;
+}
+
+.content h4 {
+    margin-top: 20px;
+}
+
+.content p {
+    margin-bottom: 55px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    padding: 0;
+    color: black;
+    margin-top: 45px;
+}
+
+.contact-links a {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+/* .contact-links a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid black  ;
+} */
+
+#student {
+    color: grey;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+    line-height: 0.1;
+}

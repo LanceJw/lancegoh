@@ -1,0 +1,90 @@
+.resume-title {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.resume-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.resume-container h5 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.resume-container p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.eh-container {
+    width: 80%;
+    margin: auto;
+}
+
+.eh {
+    display: flex;
+    flex-direction: row;
+}
+
+.eh .bar {
+    flex: auto;
+    border: none;
+    height: 1px;
+    background: rgb(0, 0, 0);
+    width: 30%;
+}
+
+.eh span {
+    margin-top: 4px;
+    padding: 0 0.8rem;
+}
+
+.divider {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.divider .left-date {
+    flex: 3;
+}
+
+.divider .left-date h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.divider .right-content {
+    flex: 7;
+}
+
+.divider .right-content h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.divider .right-content ul {
+    font-size: 16px;
+}
+
+.divider ul {
+    list-style: disc;
+}

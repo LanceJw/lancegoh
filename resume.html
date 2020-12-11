@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+    </style>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/resume.css') }}">
+    <title>Lance Goh | Resume</title>
+{% endblock %}
+
+{% block body %}
+<section class="resume-title">
+    <h3>Lance Goh</h3>
+</section>
+
+<section class="resume-container">
+    <div>
+        <h5>Interest</h5>
+        <p>Finance, Coding, Business</p>
+    </div>
+    <div>
+        <h5>Skills</h5>
+        <p>Coding Languages and Frameworks: Java, Python, HTML, CSS, Flask</p>
+    </div>
+    <div>
+        <h5>Education</h5>
+        <p>Tampines Meridian Junior College</p>
+    </div>
+</section>
+<section class="eh-container">
+    <div class="eh">
+        <hr class="bar">
+        <span><h5>Employment History</h5></span>
+        <hr class="bar">
+    </div>
+</section>
+
+<section class="divider">
+    <div class="left-date">
+        <h6>2018-2019</h6>
+    </div>
+    <div class="right-content">
+        <div>
+            <h6>Data Analyst Intern, Part Time, Quod Ai</h6>
+            <ul>
+                <li>Identify, analyse and interpret trends or patterns in complex data sets</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="divider">
+    <div class="left-date">
+        <h6>2018-2019</h6>
+    </div>
+    <div class="right-content">
+        <div>
+            <h6>Data Analyst, NUS Business Analytics Consulting Team</h6>
+            <ul>
+                <li>Application of various analytics/ machine learning models on real world datasets</li>
+            </ul>
+        </div>
+    </div>
+</section>
+    
+{% endblock %}
+
+<h6>2019-2020</h6>

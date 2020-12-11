@@ -1,0 +1,65 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #edebdf;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    min-height: 8vh;
+    background: #5D4954;
+}
+
+#logo {
+    color: rgb(233, 233, 233);
+    text-transform: uppercase;
+    margin-left: 85px;
+    margin-top: 8px;
+}
+
+#resume-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 4px double white;
+    height: 45px;
+    width: 85px;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+#nav-links {
+    margin: 0px;
+    margin-right: 197px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    font-size: 20px;
+
+}
+
+#nav-links a {
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+#nav-links a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+.active a {
+    background-color: green;
+}
